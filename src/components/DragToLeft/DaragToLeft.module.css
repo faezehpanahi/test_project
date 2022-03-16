@@ -1,0 +1,21 @@
+.btn {
+  position: absolute;
+  left: -190px;
+}
+
+.display_buttons {
+  position: relative;
+  left: 0;
+  transition: all 1s linear;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bell,
+.file {
+  /* position: relative; */
+  width: 70px;
+  height: 70px;
+  border: none;
+  background-color: inherit;
+}

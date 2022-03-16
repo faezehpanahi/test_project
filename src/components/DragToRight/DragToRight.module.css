@@ -1,0 +1,27 @@
+.btn {
+  position: absolute;
+  right: -190px;
+  /* transition: all 0.5s linear; */
+}
+
+.display_buttons {
+  position: relative;
+  right: 0;
+  transition: all 0.5s linear;
+}
+
+.edit,
+.delete {
+  /* position: relative; */
+  width: 70px;
+  height: 70px;
+  border: none;
+}
+
+.edit {
+  background-color: rgb(3, 163, 11);
+}
+
+.delete {
+  background-color: rgb(212, 3, 3);
+}
